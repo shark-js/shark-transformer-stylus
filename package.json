@@ -1,0 +1,28 @@
+{
+  "name": "shark-transformer-stylus",
+  "version": "0.0.1",
+  "description": "shark-stylus-multibrowser =========================",
+  "main": "lib/transformer-stylus.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --harmony ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shark-js/shark-transformer-stylus.git"
+  },
+  "author": "Vadim Goncharov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shark-js/shark-transformer-stylus/issues"
+  },
+  "homepage": "https://github.com/shark-js/shark-transformer-stylus",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "co": "^4.0.0",
+    "co-mocha": "^1.1.0",
+    "mocha": "^2.0.1"
+  },
+  "dependencies": {
+    "shark-transformer": "git://github.com/shark-js/shark-transformer"
+  }
+}
