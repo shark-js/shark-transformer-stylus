@@ -1,6 +1,6 @@
 'use strict';
 
-const chai      = require("chai");
+const chai      = require('chai');
 const coMocha   = require('co-mocha');
 const expect    = chai.expect;
 const Tree      = require('shark-tree');
@@ -16,19 +16,19 @@ describe('Transofrmation', function() {
 		this.logger = Logger({
 			name: 'SharkTransformerStylus'
 		});
+	});
 
+	it('should generate and write to file stylus string', function *() {
 		var dest = path.join(__dirname, './fixtures/blocks.css');
 		var src = path.join(__dirname, './fixtures/blocks.styl');
 
 		var files = {};
 		files[dest] = src;
 
-		this.filesTree = new Tree(files, this.logger);
-	});
+		var filesTree = yield Tree(files, this.logger);
 
-	it('should generate and write to file stylus string', function *() {
 		try {
-			var tree = yield transformerStylus.treeToTree(this.filesTree, this.logger);
+			var tree = yield transformerStylus.treeToTree(filesTree, this.logger);
 			yield tree.writeContentToFiles();
 			var contentByStylus = yield cofse.readFile(path.join(__dirname, './fixtures/blocks.css'), {
 				encoding: 'utf8'
