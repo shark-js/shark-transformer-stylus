@@ -20,9 +20,17 @@
     "chai": "^1.9.2",
     "co": "^4.0.0",
     "co-mocha": "^1.1.0",
-    "mocha": "^2.0.1"
+    "extsprintf": "^1.2.1",
+    "mocha": "^2.0.1",
+    "shark-logger": "git://github.com/shark-js/shark-logger",
+    "shark-tree": "git://github.com/shark-js/shark-tree"
   },
   "dependencies": {
-    "shark-transformer": "git://github.com/shark-js/shark-transformer"
+    "expand": "git://github.com/shark-js/expand",
+    "node.extend": "^1.1.3",
+    "shark-transformer": "git://github.com/shark-js/shark-transformer",
+    "shark-watcher": "git://github.com/shark-js/shark-watcher",
+    "stylus": "^0.49.3",
+    "verror": "^1.5.1"
   }
 }
