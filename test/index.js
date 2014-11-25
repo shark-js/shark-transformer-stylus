@@ -31,8 +31,10 @@ describe('Transofrmation', function() {
 		files[destA] = {
 			files: [srcA, srcB],
 			options: {
-				define: {
-					'$ie8': new transformerStylus.Stylus.nodes.Boolean(false)
+				stylus: {
+					define: {
+						'$ie8': new transformerStylus.Stylus.nodes.Boolean(false)
+					}
 				}
 			}
 		};
