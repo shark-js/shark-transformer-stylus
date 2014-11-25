@@ -26,3 +26,6 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+./test/fixtures/block-a.dest.css
+./test/fixtures/block-b.dest.css
