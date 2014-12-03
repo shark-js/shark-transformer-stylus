@@ -29,3 +29,5 @@ node_modules
 
 ./test/fixtures/block-a.dest.css
 ./test/fixtures/block-b.dest.css
+
+.idea
