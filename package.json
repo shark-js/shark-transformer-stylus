@@ -16,21 +16,31 @@
     "url": "https://github.com/shark-js/shark-transformer-stylus/issues"
   },
   "homepage": "https://github.com/shark-js/shark-transformer-stylus",
+  "engines": {
+    "node": ">=0.11.14",
+    "npm": ">=2.1.5"
+  },
+  "engineStrict": true,
   "devDependencies": {
     "chai": "^1.9.2",
     "co-fs-extra": "^1.0.1",
     "co-mocha": "^1.1.0",
     "extsprintf": "^1.2.1",
     "mocha": "^2.0.1",
-    "shark-logger": "*",
-    "shark-tree": "*"
+    "shark-logger": "0.1.0",
+    "shark-tree": "0.1.0"
   },
   "dependencies": {
     "co": "^4.0.1",
-    "expand": "git://github.com/shark-js/expand",
     "node.extend": "^1.1.3",
-    "shark-transformer": "*",
+    "shark-transformer": "0.1.0",
     "stylus": "^0.49.3",
     "verror": "^1.5.1"
-  }
+  },
+  "files": [
+    "lib",
+    "test",
+    "LICENCE",
+    "README.md"
+  ]
 }
