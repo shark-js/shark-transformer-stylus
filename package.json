@@ -1,6 +1,6 @@
 {
   "name": "shark-transformer-stylus",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "shark-transformer-stylus",
   "main": "lib/transformer-stylus.js",
   "scripts": {
